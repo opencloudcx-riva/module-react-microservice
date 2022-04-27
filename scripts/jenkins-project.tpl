@@ -15,13 +15,13 @@
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.93">
     <script>pipeline {
   environment {
-    PROJECT_GITHUB = &quot;https://github.com/ODOS-Technical-Challenge/react-microservice-template.git&quot;
+    PROJECT_GITHUB = &quot;https://github.com/opencloudcx-riva/react-microservice-template.git&quot;
 	PROJECT_NAME   = &quot;react-microservice-template&quot;
 	IMAGE_NAME     = &quot;react-microservice-template-app&quot;
-	BUILD_NUMBER   = &quot;1.0&quot;
+	BUILD_NUMBER   = &quot;demo&quot;
     REGISTRY       = &quot;index.docker.io&quot;
     REPOSITORY     = &quot;rivasolutionsinc&quot;
-    BRANCH         = &quot;master&quot;
+    BRANCH         = &quot;demo&quot;
   }
   agent {
     kubernetes {
